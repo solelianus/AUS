@@ -138,6 +138,7 @@ def main():
                             course_info["total_tuition_costs"],
                         ),
                     )
+                    # TODO:  FIX 2 if for one variables
                     if course_info is not None:
                         print(f"Inserted: {course_info['course_name']}")  # Log success
             except Exception as e:
